@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-using Interfaces;
+using Domain;
 
-using Lib_BrowserPlatform;
+using Interfaces;
 
 using Microsoft.JSInterop;
 

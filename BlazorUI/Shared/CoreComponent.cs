@@ -1,12 +1,16 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-using Interfaces;
+using Domain;
 
-using Lib_BrowserPlatform;
+using HttpServices;
+
+using Interfaces;
 
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Forms;
+
+using PageFeatures;
 
 namespace BlazorUI
 {
@@ -105,7 +109,7 @@ namespace BlazorUI
             this.NavigationManager.NavigateTo(pageToNavigateTo);
         }
 
-        [Inject] public ImageUploaderService ImageUploaderService { get; set; }
+        [Inject] public HttpImageUploaderService ImageUploaderService { get; set; }
         public string ImageFimeName { get; set; }
         protected string FileNameStart => Guid.NewGuid().ToString() + "_";
 
@@ -127,7 +131,7 @@ namespace BlazorUI
             await this.GetAsync();
         }
 
-        
+
         [Parameter] public EventCallback<string> OnSortChanged { get; set; }
         protected async Task SortChanged(string orderBy)
         {

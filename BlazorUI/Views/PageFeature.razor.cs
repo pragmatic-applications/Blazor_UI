@@ -1,6 +1,6 @@
 ﻿using Interfaces;
 
-using Lib_BrowserPlatform;
+using PageFeatures;
 
 namespace BlazorUI.Views
 {

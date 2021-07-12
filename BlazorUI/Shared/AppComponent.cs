@@ -1,7 +1,8 @@
-﻿using Lib_BrowserPlatform;
+﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using System;
+
+using PageFeatures;
 
 namespace BlazorUI
 {

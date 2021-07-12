@@ -1,8 +1,10 @@
 ﻿using System.Collections.Generic;
 
-using Lib_BrowserPlatform;
+using Domain;
 
 using Microsoft.AspNetCore.Components;
+
+using PageFeatures;
 
 namespace BlazorUI.Views
 {
