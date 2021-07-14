@@ -24,8 +24,8 @@ namespace BlazorUI
         public FormMode FormMode { get; set; } = FormMode.Create;
         public string FormTitle { get; set; }
 
-        public static string CategoryName { get; set; } // CoreComponent.CategoryName
-        public static int CategoryId { get; set; } // CoreComponent.CategoryId
+        //public static string CategoryName { get; set; } // CoreComponent.CategoryName
+        //public static int CategoryId { get; set; } // CoreComponent.CategoryId
 
         [Parameter] public RenderFragment ChildContent { get; set; }
 
@@ -185,5 +185,9 @@ namespace BlazorUI
         protected virtual void LoadDataCategoryFail(Exception exception) { }
         // Generic Class members
         // E NN
+
+        //// S eItem ???
+        //[Inject] public EntityParameter EntityParameter { get; set; }
+        //// E eItem ???
     }
 }

@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>0.0.0.5</Version>
+        <Version>0.0.0.6</Version>
         <Authors>Maurice A Kelly @MAKMaurice</Authors>
         <Company>Pragmatic Applications</Company>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -13,7 +13,7 @@ Features used include Blazor cascading values and parameters.</Description>
         <PackageReleaseNotes>A .NET 5.0 Blazor Razor Class Library (BRCL) that include Navigation menu, PageContainer, Pagination, Sort, Search, Banner, Footer and other helpful components and classes. Features used include Blazor cascading values and parameters.</PackageReleaseNotes>
         <RepositoryType>A .NET 5.0 Blazor Razor Class Library (BRCL)</RepositoryType>
         <PackageTags>.NET 5.0 Blazor Razor Class Library (BRCL)</PackageTags>
-        <RepositoryUrl>https://github.com/pragmatic-applications/Blazor-UI</RepositoryUrl>
+        <RepositoryUrl>https://github.com/pragmatic-applications/Blazor_UI</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>

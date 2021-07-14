@@ -15,13 +15,7 @@ namespace BlazorUI
 
         public string Zero { get; set; } = "0";
 
-        protected bool IsDisabled
-        {
-            get
-            {
-                return CategoryId == Zero;
-            }
-        }
+        protected bool IsDisabled => this.CategoryId == this.Zero;
 
         public int GetCategoryId(string categoryId)
         {

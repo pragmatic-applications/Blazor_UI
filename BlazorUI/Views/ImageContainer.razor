@@ -2,19 +2,12 @@
 @if(this.ImageParameter != null)
 {
     <div @attributes="Attributes" class="@this.MaxWidthParameter">
-        <img class="img_circle--" style="width: 100px; height: 100px;" src="@this.Url" />
+        <img src="@this.Url" class="img_circle--" style="width: 100px; height: 100px;" />
     </div>
 }
-
-
-
-@*@if (this.ImageParameter != null)
-    {
-        //this.Url = $"{Url_Api_Base_S_Images_UploadFiles}/{this.ImageParameter}";
-
-        <div class="row no-gutters">
-            <div class="col">
-                <img class="img-circle p-1" src="@this.Url" />
-            </div>
-        </div>
-    }*@
+else
+{
+    @*<div @attributes="Attributes" class="@this.MaxWidthParameter">
+        <img src="@this.Url" class="img_circle--" style="width: 100px; height: 100px;" />
+    </div>*@
+}

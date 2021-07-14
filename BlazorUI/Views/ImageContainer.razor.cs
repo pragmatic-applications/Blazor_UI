@@ -20,14 +20,5 @@ namespace BlazorUI.Views
 
             this.Url = $"{this.UrlApiImageParameter}/{this.ImageParameter}";
         }
-
-        //protected override Task OnParametersSetAsync()
-        //{
-        //    return base.OnParametersSetAsync();
-        //}
-
-        //public const string Url_Api_Base_S_Images_UploadFiles = "https://localhost:5551/Images/UploadFiles";
-        //public const string Url_Api_Base_S_Images_UploadFiles = "https://localhost:5551/Images/UploadFiles";
-        //AppState.IsDeployed
     }
 }
