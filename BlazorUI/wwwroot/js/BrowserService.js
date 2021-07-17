@@ -1,20 +1,4 @@
 ﻿
-// S Get Width and Height
-// window.innerWidth is prefered because it excludes the scrollbar and other unwanted browser chrome size data.
-//export function getDimensions()
-//{
-//    return {
-//        width: window.innerWidth,
-//        height: window.innerHeight,
-
-//        outerWidth: window.outerWidth,
-//        outerHeight: window.outerHeight,
-
-//        clientWidth: document.documentElement.clientWidth,
-//        clientHeight: document.documentElement.clientHeight
-//    };
-//};
-
 export function getDimensions()
 {
     return {

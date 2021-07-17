@@ -1,0 +1,20 @@
+﻿@*@typeparam TItem
+
+<div class="checkbox_list_container checkboxes">
+    @foreach(var item in this.Items)
+    {
+        var id = Guid.NewGuid();
+
+        <label for="@id" class="option_item">
+            <input type="checkbox" @onchange="(_) => this.DoChange(item)" id="@id" class="checkbox" />
+
+            <span class="option_inner theme">
+                <span class="tickmark"></span>
+                <span class="name">
+                    @this.ItemTemplate(item)
+                </span>
+            </span>
+        </label>
+    }
+</div>
+*@
